@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FlatMate</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Stylesheet.css">
+</head>
+<body>
+	<div class="header-section">
+		<div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="#">Home</a>
+               <a href="#about-section">About</a> 
+               <a href="#ContactUs-section">Contact</a>
+               <a href="Login_v3/Login_v3/singup.php.html">SignUp</a>
+               <a href="Login_v3\Login_v3\SignIn.html">SignIn</a>
+
+                      </div> <div id="main">       
+               <span style="font-size:30px;cursor: pointer" onclick="openNav()">&#9776;</span>
+        </div>
+           <center>
+        <div class="header-text">
+      	       <h1>FlatMate<br></h1>
+      	       <p id="Introductory_Text">Search. Find. Move In</p>
+      	       	<a href="#">Find Flat</a>     
+      	</div> 
+      	     </center>
+
+	</div>
+	<div class="about-section" id="about-section">
+		<br><br>
+		<h1>-Our Mission-</h1>
+		<p></p>
+		<h1>About</h1>
+		<h2>
+		Looking for quality renatl proparties ? whether its a bachelor pad,<br>
+		townhouse or a family rental proparty -Flatemate is the site to use.<br>
+		We are familiar market space that everyone trustt, that's easy to<br>
+		navigate and a classified site that is guaranteed to match you to <br>
+		what you're searching for - whether via a mobile device or desktop.<br><br>
+		And that's not the best part, the site is absolutly free to use <br>
+		so, let us help you find your perfect home.    
+	    </h2>
+	</div>
+	
+	<div class="ContactUs-section" id="ContactUs-section">
+		<span style="float: left">&#8362;</span>
+		<br>
+		<div class="contact-text">
+			<p>
+			Need additional<br>
+			information or have a<br>
+			question or comment?<br>
+			Please feel free to leave a<br>
+			massege, and we'll get<br>
+			back to you as soon as<br>
+			possible.
+		   </P>
+		</div>
+
+		<div class="contact-form">
+			<form>
+				<p><input type="text" name="name" class="input-box" placeholder="Name"></p>
+				<p><input type="email" name="e-mail" class="input-box" placeholder="E-Mail"></p>
+				<p><input type="number" name="number" class="input-box" placeholder="Mobile Number"></p>
+				<p><textarea name="message" class="input-box" placeholder="Message"></textarea></p>
+				<p><button type="submit" value="Send It!" class="Btn-submit">Send It</button></p>
+			</form>
+		</div>
+	</div>
+	<div class="footer"></div>
+	<script>
+	    function openNav() {    	
+            document.getElementById("mySidenav") .style.width="250px";
+            document.getElementById("main") .style.marginLeft="250px";
+            document.body.style.backgroundColor= "rgba(0,0,0,0.4)"; }
+            function closeNav() { document.getElementById("mySidenav") .style.width = "0";
+            document.getElementById("main") .style.marginLeft= "0"; document.body.style.backgroundColor = "white";
+       }
+	</script>
+	<script src="js/javascript.js"></script>
+</body>
+</html>

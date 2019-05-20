@@ -1,0 +1,24 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('C:/Users/UNKNOWN/Documents/Project X/images/pic.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row{
+	
+}
+
+#form_container
+{
+	padding:15px 15px;
+	margin-top:15px;
+	background: rgba(255,255,255,0.75);	
+}
+
+.py-5{
+		
+}
+
+
